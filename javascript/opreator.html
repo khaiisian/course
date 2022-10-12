@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opreators</title>
+</head>
+<body>
+
+    <h1>Opreators</h1>
+    <p>
+        Arithmetics Opreators: +,-,*,/,%(Modulus)
+         5/2=2.5 5%2=>1 <br>
+        Logical Opreators : &gt, &lt, ==, !=, &&, !!
+    </p>
+    <script>
+        // let firstNumber = 8; //'=' is assignment opreator;
+        // let secondNumber=3; // intialized or hard code
+        let firstNumber = parseInt (prompt("Enter first Number:" ));
+        let secondNumber= parseInt(prompt("Enter Second Number:" ));
+        //String to Intreger=>data type Conversation
+         let sum=firstNumber+secondNumber;
+         console.log("First Number",firstNumber);
+         console.log("Second Number",secondNumber);
+         console.log("Sum is ;",sum);
+         let sub = firstNumber-secondNumber; // minus opreator
+         console.log("Sub is :",sub)
+         let mul = firstNumber * secondNumber;
+         console.log("Multiplication is:",mul)
+         let div= firstNumber/secondNumber;
+         console.log("Division is:",div.toFixed(2)); 
+         let mod = firstNumber%secondNumber;
+         console.log("Modulus is:",mod)
+    </script>
+
+    
+</body>
+</html>
