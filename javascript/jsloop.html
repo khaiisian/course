@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Loop</title>
+</head>
+<body>
+    <h1>JS Loop</h1>
+    <script> 
+    //loop: 1: counter: initialize=o, 1
+    //2: condition:
+    //3: increment opreator :
+
+        for(var i=1 ; i<=10 ; i++) //initialize ; condition ; increment,decrement
+        document.write(i + ": hello world<br>");
+        for(var j=10 ; j>0 ; j--)
+        document.write(j + ": hello j<br>")
+    //++ -- ! unary opreator : + - * / a=+b binary opreator
+        let a=10;
+        let b=20;
+         let c = a++ + 10; // 20
+         let d = a + ++b ;// 32
+         let e = ++a - --b ;
+        
+        let flag=true;
+        if(!flag){
+            alert('hi');
+        }
+        
+        //ask user to enter number for 5 times ;
+        //sum to get total numbers;
+        //show results;
+        /*
+        var total=0; //initialized
+         let answer=parseInt(prompt("How many number?"))
+        for (var i=1; i<=answer; i++){
+            let number = parseInt(prompt("Enter a number!"));
+            total += number ;
+        }
+        alert('Total :'+total);
+        */
+       /*
+        var sum=0;
+       let answer = parseInt(prompt("How many number: "))
+       for (var i=1; i<=answer; i++){
+        sum +=i;
+       }
+       alert("The sum of 1 to 1o "+answer+":" +sum );
+       */
+       //nested loop:
+       for (var i=1; i<=5; i++){
+        for (var j=1; j<=i; j++){
+        document.write('*');
+       }
+       document.write('<br>')
+    }
+        /*
+        2 x 1 = 2
+        2 x 2 = 4
+        2 x 3 = 6
+
+        */
+       let answer= parseInt(prompt("Enter a number:"));
+        for ( var i=1; i<=12; i++){
+            let result=answer * i;
+            document.write (answer+'x'+i+'='+result+ '<br>')
+        }
+
+    </script>
+
+    
+</body>
+</html>
