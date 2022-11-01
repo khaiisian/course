@@ -4,6 +4,92 @@ h1{
     /* color: rgb(100, 100, 100); */
     text-align: center;
     font-size: 30px;
+}
 
+/* universal selector */
+*{
+    color: blue;
+    
+}
+*{
+    margin: 0px;
+    padding: 0;
+}
 
+/* tag/ element selector */
+h2{
+    color: green;
+    text-align: right;
+}
+
+/* Attribute selector */
+a[title="Google"]{
+    color: yellow;
+    text-decoration: line-through;
+}
+/* id selector */
+#idselector{
+    text-indent: 40px;
+    font-size: 20px;
+    word-spacing: 30px;
+    letter-spacing: 10px;
+}
+/* Class selector */
+.classselector{
+    color: brown;
+    letter-spacing: 10px;
+}
+/* Descendant selector */
+#desc a{
+    color: red;
+}
+/* Child selector */
+#child > a{
+    color: green;
+}
+/* Margin */
+.marginone{
+    /* margin: 50px; */
+    /* All four */
+    margin: 100px 50px;
+    /* T&B L&R */
+    border: 2px solid red;
+}
+.margintwo{
+    margin-top: 20px;
+    border: 2px solid green;
+}
+
+/* padding */
+.padding{
+    /* padding: 50px 100px 20px 150px; */
+    padding-top: 100px;
+    border: 2px solid black;
+}
+
+/* layout */
+.inline{
+    border: 1px solid red;
+    width: 400px;
+    display: inline-block;
+}
+.block{
+    border: 1px solid brown;
+    width: 400px;
+}
+
+/* Float */
+.float_left img{
+    width: 40%;
+    float: left;
+    margin-right: 30px
+}
+.clear{
+    clear: both;
+}
+.float_right img{
+    width: 40%;
+    margin-top: 5px;
+    margin-left: 30px;
+    float: right;
 }
