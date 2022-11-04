@@ -9,6 +9,7 @@ h1{
 /* universal selector */
 *{
     color: blue;
+    font-size: 18px;
     
 }
 *{
@@ -47,6 +48,33 @@ a[title="Google"]{
 #child > a{
     color: green;
 }
+
+/* Persudo  */
+.persudo:link{
+    text-decoration: none;
+    color: aqua;
+
+}
+.persudo:hover{
+    text-decoration: underline;
+    letter-spacing: 4px;
+    color: green;
+}
+.persudo:active{
+    color: red;
+
+}
+.persudo:visited{
+    color: rgb(208, 230, 11);
+}
+
+/* target */
+p:target{
+    border: 1px solid red;
+    color: yellow;
+}
+
+
 /* Margin */
 .marginone{
     /* margin: 50px; */
@@ -156,4 +184,16 @@ a[title="Google"]{
     right: 100px;
     border: 1px solid black;
 
+}
+
+/* font */
+.online{
+    font-family: 'Poor Story', cursiv;
+}
+@font-face {
+    font-family: Shalimar;
+    src: url(Shalimar/Shalimar-Regular.ttf);
+}
+.offline{
+    font-family: Shalimar;
 }
