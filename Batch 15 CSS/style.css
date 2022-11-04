@@ -74,6 +74,33 @@ p:target{
     color: yellow;
 }
 
+/* Border */
+.borderone{
+    border: 5px double red;
+}
+.bordertwo{
+    border-top: 4px dashed green;
+    border-bottom: 4px dotted red;
+}
+.borderstyle{
+    border-style: solid;
+}
+.borderstylemix{
+    /* border-style: solid; */
+    /* all four side */
+    /* border-style: solid dotted; */
+    /* T&B/L&R */
+    /* border-style: solid dotted dashed; */
+    /* T/L&R/B */
+    border-style: double solid dashed dotted;
+    /* T / R / B / L clockwise */
+}
+.borderwidth{
+    border-width: 2px 30px;
+    border-style: double;
+    border-color: red;
+}
+
 
 /* Margin */
 .marginone{
@@ -197,3 +224,4 @@ p:target{
 .offline{
     font-family: Shalimar;
 }
+ 
