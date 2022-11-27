@@ -1,0 +1,670 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar ul{
+    float: right;
+}
+.navbar ul li{
+    display: inline-block;
+}
+.nav_brand{
+    display: inline-block;
+    margin-left: 20px;
+}
+.navbar{
+    padding: 30px;
+}
+.nav_brand a{
+    text-decoration: none;
+    font-size: 28px;
+    color: #60b3c5;
+    font-weight: bold;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    padding: 0px 15px;
+    font-weight: bold;
+}
+.navbar ul li a:hover{
+    color: #60b3c5;
+    letter-spacing: 3px;
+    transition-duration: .7s;
+}
+.navbar {
+    height: 40px;
+    box-shadow: 5px 5px 20px rgb(68, 143, 167,.3);
+}
+.noti{
+    position: relative;
+    top: -16px;
+    left: -6px;
+    background: black;
+    color: white;
+    padding: 0px 7px;
+    border-radius: 50%;
+}
+/* Bunner */
+.bunner_img{
+    width: 100%;
+}
+.bunner_text{
+    position: absolute;
+    top: 250px;
+    left: 80px;
+    line-height: 30px;
+    width: 700px;
+    
+}
+.bunner_text p{
+    font-size: 18px;
+}
+.shop_now{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+}
+.shop_now:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+.bunner_text h1{
+    margin-bottom: 10px;
+}
+/* Category */
+.cat_header{
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 16px;
+    font-size: 28px; 
+}
+.category {
+    padding: 10px 20px;
+    margin: 3px;
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid black ;
+    
+}
+.cat_center{
+    width: 50%;
+    margin: auto;
+}
+.category:hover{
+    background-color: #60b3c5;
+    color: white;
+    border: 1px solid #60b3c5;
+    cursor: pointer;
+}
+/* Arrival */
+.title{
+    border-left: 5px  solid #60b3c5;
+    margin-left: 100px;
+    padding-left: 20px;
+    margin-top: 70px;
+}
+.new_arrival{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    margin-left: 70px;
+    margin-right: 70px;
+    text-align: center;
+    grid-row-gap: 40px;
+    margin-top: 20px;
+}
+.iphone13mini_img{
+    background-image: url(../images/iPhone13mini2.png);
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    z-index: 1;
+}
+.iphone13mini_img:hover{
+    background-image: url(../images/iPhone13mini.png);
+    z-index: 2;
+}
+.iphone14promax_img{
+    background-image: url(../images/iPhone14promax.png);
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
+.iphone14promax_img:hover{
+    background-image: url(../images/iPhone14promax2.png);
+}
+.iPhone12pro_img{
+    display: inline-block;
+    background-image: url(../images/iPhone12pro.png);
+    width: 200px;
+    height: 200px;
+}
+.iPhone12pro_img:hover{
+    background-image: url(../images/iPhone12pro2.png);
+}
+
+.fold4_img{
+    background-image: url(../images/fold4.png);
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+}
+
+.fold4_img:hover{
+    background-image: url(../images/fold4\(2\).png);
+}
+
+.flip4_img{
+    display: inline-block;
+    background-image: url(../images/flip4.png);
+    width: 200px;
+    height: 200px;
+}
+
+.flip4_img:hover{
+    background-image: url(../images/flip4\(2\).png);
+
+}
+
+.haweiP50_img{
+    background-image: url(../images/Haweip50.png);
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+}
+
+.haweiP50_img:hover{
+    background-image: url(../images/Haweip50\(2\).png);
+}
+
+.huaweiP50pocket_img{
+    display: inline-block;
+    background-image: url(../images/huaweiP50\ pocket.png);
+    width: 200px;
+    height: 200px;
+}
+
+.huaweiP50pocket_img:hover{
+    background-image: url(../images/HuaweiP50\ pocket2.png);
+}
+
+.realme9pro_img{
+    display: inline-block;
+    background-image: url(../images/realme9pro.png);
+    width: 200px;
+    height: 200px;
+}
+
+.realme9pro_img:hover{
+    background-image: url(../images/realme9pro2.png);
+}
+
+.vivox80pro_img{
+    display: inline-block;
+    background-image: url(../images/vivo\ x80\ pro.png);
+    width: 200px;
+    height: 200px;
+}
+
+.vivox80pro_img:hover{
+    background-image: url(../images/vivo\ x80\ pro2.png);
+}
+
+.honormagic4pro_img{
+    display: inline-block;
+    background-image: url(../images/honor\ magic\ 4\ pro.png);
+    width: 200px;
+    height: 200px;
+}
+.honormagic4pro_img:hover{
+    background-image: url(../images/honor\ magic\ 4\ pro2.png);
+}
+.phones_types{
+    margin-bottom: 5px;
+}
+.new_arrival_icon{
+    padding-right: 10px;
+    margin-bottom: 5px;
+}
+.blog{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    grid-column-gap: 20px;
+    line-height: 27px;
+    grid-row-gap: 80px;
+}
+.blog_img{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+.calendar{
+    color: #60b3c5;
+    padding-left: 15px;
+}
+.read_more{
+    color: #60b3c5;
+    padding-left: 15px;
+    padding-bottom: 30px;
+    display: inline-block;
+    padding-top: 10px;
+    text-decoration: none;
+}
+.blog div{
+    box-shadow: -5px 10px 10px rgb(177, 175, 175, .2);
+}
+.blog div h3{
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 18px;
+    text-align: justify;
+}
+.img_zoom{
+    width: 100%;
+    height: 260px;
+    display: inline-block;
+    overflow: hidden;
+}
+.blog_img:hover{
+    transform: scale(1.15);
+    transition: .6s ease;
+}
+.available_img{
+    background-image: url(../images/iPhone13mini.png);
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    /* z-index: 1; */
+
+}
+.available_img:hover{
+    background-image: url(../images/iPhone13mini2.png);
+    /* z-index: 2; */
+}
+
+.iphone13promax_img{
+    display: inline-block;
+    background-image: url(../images/iphone13promax.png);
+    width: 200px;
+    height: 200px;
+}
+
+.iphone13promax_img:hover{
+    background-image: url(../images/iphone13promax2.png);
+}
+.available_more a{
+    display: inline-block;
+    text-decoration: none;
+    color: #60b3c5;
+}
+.available_more{
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* Support */
+.support div p{
+    display: inline-block;
+}
+.support div span{
+    display: block;
+    font-weight: bold;
+    font-size: 20px;
+}
+.support{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 70px;
+    background-color: rgb(222, 222, 222,.5);
+    padding: 35px;
+}
+/* Footer */
+.footer{
+    background-color: black;
+    padding: 30px;
+
+}
+.footer center a{
+    display: inline-block;
+    text-decoration: none;
+    padding:  20px 10px;
+    color: gray;
+}
+.design_by{
+    color: gray;
+    padding: 20px;
+}
+
+
+
+/* Product page */
+.product_page{
+    color: #60b3c5;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    word-spacing: 10px;
+    font-size: 40px;
+
+}
+/* Apple */
+.apple_product{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    margin-left: 70px;
+    margin-right: 70px;
+    text-align: center;
+    grid-row-gap: 40px;
+    margin-top: 20px;
+}
+.iphoneXs_img{
+    display: inline-block;
+    background-image: url(../images/iphone\ xs.png);
+    width: 200px;
+    height: 200px;
+}
+.iphoneXs_img:hover{
+    background-image: url(../images/iph\ xs\ 2.png);
+}
+
+
+/* Samsung */
+.samsung_products{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    margin-left: 70px;
+    margin-right: 70px;
+    text-align: center;
+    grid-row-gap: 40px;
+    margin-top: 20px;
+}
+.s22_ultra{
+    display: inline-block;
+    background-image: url(../images/s22\ ultra.png);
+    width: 200px;
+    height: 200px;
+}
+.s22_ultra:hover{
+    background-image: url(../images/s22\ ultra\ 1.png);
+}
+.a53_img{
+    display: inline-block;
+    background-image: url(../images/a53.png);
+    width: 200px;
+    height: 200px;
+}
+.a53_img:hover{
+    background-image: url(../images/a53\ 1.png);
+}
+.xcover6_img{
+    display: inline-block;
+    background-image: url(../images/xcover6.png);
+    width: 200px;
+    height: 200px;
+}
+.xcover6_img:hover{
+    background-image: url(../images/xcover6\ 1.png);
+}
+
+/* Oppo */
+.oppo_products{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    margin-left: 70px;
+    margin-right: 70px;
+    text-align: center;
+    grid-row-gap: 40px;
+    margin-top: 20px;
+}
+.findN_img{
+    display: inline-block;
+    background-image: url(../images/findN.png);
+    width: 200px;
+    height: 200px;
+}
+.findN_img:hover{
+    background-image: url(../images/findN1.png);
+}
+.reno8pro_img{
+    display: inline-block;
+    background-image: url(../images/reno\ 8\ pro.png);
+    width: 200px;
+    height: 200px;
+}
+.reno8pro_img:hover{
+    background-image: url(../images/reno\ 8\ pro1.png);
+}
+.renofindX5pro_img{
+    display: inline-block;
+    background-image: url(../images/reno\ x5.png);
+    width: 200px;
+    height: 200px;
+}
+.renofindX5pro_img:hover{
+    background-image: url(../images/reno\ x5\ 1.png);
+}
+.renoF21pro_img{
+    display: inline-block;
+    background-image: url(../images/F21\ pro\ 1.png);
+    width: 200px;
+    height: 200px;
+}
+.renoF21pro_img:hover{
+    background-image: url(../images/F21\ pro.png);
+}
+.a76_img{
+    display: inline-block;
+    background-image: url(../images/a76.png);
+    width: 200px;
+    height: 200px;
+}
+.a76_img:hover{
+    background-image: url(../images/a76\ 1.png);
+}
+
+
+/* Hornor */
+.honor_products{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    margin-left: 70px;
+    margin-right: 70px;
+    text-align: center;
+    grid-row-gap: 40px;
+    margin-top: 20px;
+}
+.honor50_img{
+    display: inline-block;
+    background-image: url(../images/honor\ 50.png);
+    width: 200px;
+    height: 200px;
+}
+.honor50_img:hover{
+    background-image: url(../images/honor\ 50\ 1.png);
+}
+.honor9a_img{
+    display: inline-block;
+    background-image: url(../images/honor9a.png);
+    width: 200px;
+    height: 200px;
+}
+.honor9a_img:hover{
+    background-image: url(../images/honor9a\ 1.png);
+}
+.honor50lite_img{
+    display: inline-block;
+    background-image: url(../images/honor50\ lite.png);
+    width: 200px;
+    height: 200px;
+}
+.honor50lite_img:hover{
+    background-image: url(../images/honor50\ lite\ 1.png);
+}
+.honorX8_img{
+    display: inline-block;
+    background-image: url(../images/honor\ x8\ 5g.png);
+    height: 200px;
+    width: 200px;
+}
+.honorX8_img:hover{
+    background-image: url(../images/honor\ x8\ 1.png);
+}
+
+/* Vivo */
+.vivo_products{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    margin-left: 70px;
+    margin-right: 70px;
+    text-align: center;
+    grid-row-gap: 40px;
+    margin-top: 20px;
+}
+.vivoV25pro_img{
+    display: inline-block;
+    background-image: url(../images/v25\ pro.png);
+    width: 200px;
+    height: 200px;
+}
+.vivoV25pro_img:hover{
+    background-image: url(../images/v25\ pro\ 2.png);
+}
+.vivoT1pro_img{
+    display: inline-block;
+    background-image: url(../images/vivo\ t1\ pro\ 1.png);
+    width: 200px;
+    height: 200px;
+}
+.vivoT1pro_img:hover{
+    background-image: url(../images/vivo\ t1\ pro\ 2.png);
+}
+.vivoX70pro_img{
+    display: inline-block;
+    background-image: url(../images/vivo\ x70\ pro.png);
+    width: 200px;
+    height: 200px;
+}
+.vivoX70pro_img:hover{
+    background-image: url(../images/vivo\ x70\ pro1.png);
+}
+.vivoIQOO9T_img{
+    display: inline-block;
+    background-image: url(../images/iqoo\ 9t.png);
+    width: 200px;
+    height: 200px;
+}
+.vivoIQOO9T_img:hover{
+    background-image: url(../images/iqoo\ 9t\ 1.png);
+}
+
+/* More products */
+.more_products{
+    display: inline-block;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 80px;
+    color: #60b3c5;
+    text-decoration: none;
+}
+
+/* Service */
+
+
+/* About */
+.about_img{
+    width: 60%;
+}
+.about{
+    position: relative;
+    left: 20%;
+}
+.about_page{
+    color: #60b3c5;
+    margin-top: 30px;
+    text-align: center;
+    word-spacing: 10px;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.about_p{
+    font-size: 18px;
+    line-height: 40px;
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: justify;
+    letter-spacing: 2px;
+ 
+}
+.about_bunner{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 10px;
+    border: #60b3c5 solid 5px;
+    padding: 10px 30px 30px;
+    border-radius: 15px;
+}
+
+
+/* Contact */
+.contact{
+    background-color: #60b3c5;
+}
+.contact_page{
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+.ph_number{
+    padding-left: 20px;
+    padding-top: 80px;
+    padding-bottom: 100px;
+    font-size: 20px;
+    color: white;
+}
+.email{
+    float: right;
+    position: relative;
+    top: -120px;
+    font-size: 20px;
+    color: white;
+
+}
+.form{
+    margin-left: 500px;
+    margin-right: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    border: #60b3c5 solid 1px;
+    position: relative;
+    top: -120px;
+    background-color: rgb(229, 232, 234);
+    font-size: 25px;
+}
+
+
+input[type="text"],input[type="email"],input[type="number"]{
+    height: 23px;
+}
+.submit{
+    padding: 5px;
+    font-size: 18px;
+    margin-left: 400px;
+    background-color: white;
+    border-radius: 10px;
+    border: black solid 1px;
+}
+.submit:hover{
+    background-color: #60b3c5;
+    color: white;
+    border: #60b3c5 solid 1px;
+}
